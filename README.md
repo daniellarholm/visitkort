@@ -2,4 +2,4 @@
 visitkort i html
 
 ## hvorfor
-lavet i forbindelse af cmk forløber med webudvikling på roskilde teknisk skole i august 2022
+lavet i forbindelse af cmk forløbet med webudvikling på roskilde teknisk skole i august 2022
