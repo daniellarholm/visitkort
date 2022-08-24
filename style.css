@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+    --base-color: #86796b;
+    --accent-color: #f9c896;
+
+    --base-font:verdana, Geneva, Tahoma, sans-serif; 
+    --accent-font:'Dancing Script', cursive; ; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family:var(--base-font);
+    color:var(--base-color);
+}
+
+h1, h2{
+    font-family:var(--accent-font) ;
+    color:var(--accent-color);
+}
+
+.img-round{
+    width: 30vh;
+    height: 30vh;
+
+    border-radius: 100%;
+}
+
+header, main, footer{
+display: flex;
+
+padding:2em;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+
+}
+u1{
+list-style: none;
+}
+
+li{
+padding:0.5em;
+}
+a{
+    color: var(--base-color);
+    text-decoration: none;
+}
+a:hover{
+    color:var(--accent-color)
+}
+
+.some-icons{
+    display: flex;
+
+    padding:0.5em;
+
+    font-size:2em;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1em;
+
+
+}
