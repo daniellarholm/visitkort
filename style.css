@@ -1,13 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-:root{
-    --base-color: #86796b;
-    --accent-color: #f9c896;
 
-    --base-font:verdana, Geneva, Tahoma, sans-serif; 
-    --accent-font:'Dancing Script', cursive; ; 
-}
 
 *{
     margin: 0;
@@ -21,9 +15,14 @@ body{
     color:var(--base-color);
 }
 
-h1, h2{
+h1, h2, h3{
     font-family:var(--accent-font) ;
     color:var(--accent-color);
+
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+
 }
 
 .img-round{
@@ -69,4 +68,62 @@ a:hover{
     gap:1em;
 
 
+}
+
+.gallery{
+    display: flex;
+
+    width: 70%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.gallery article{
+    width: 30vh;
+    padding: 0.5em;
+
+}
+
+.gallery article:hover{
+    opacity: 0.5;
+}
+
+.gallery article img{
+    width: 100%;
+
+}
+
+.banner{
+    width: 100%;
+    height: 40vh;
+
+padding: 0;
+
+    object-fit: contain;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    margin: -30%;
+
+}
+
+nav{
+    width: 100%;
+
+    border-bottom: 1px soild var(--accent-color);
+
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+nav a{
+    padding: 0.5em;
+}
+
+.center-text{
+    text-align: center;
 }

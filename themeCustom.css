@@ -1,0 +1,11 @@
+:root{
+    --base-color: #86796b;
+    --accent-color: #f6ca9f;
+
+    --base-font:verdana, Geneva, Tahoma, sans-serif; 
+    --accent-font:'Dancing Script', cursive; ; 
+
+}
+body{
+    background-color:rgb(0, 255, 255);
+}
